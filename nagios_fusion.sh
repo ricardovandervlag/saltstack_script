@@ -1,4 +1,4 @@
-sudo apt install build-essential libgd-dev openssl libssl-dev unzip apache2
+sudo apt install build-essential libgd-dev openssl libssl-dev unzip apache2 -y
 sudo useradd nagios
 sudo groupadd nagcmd
 sudo usermod -a -G nagcmd nagios
