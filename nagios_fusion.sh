@@ -4,8 +4,7 @@ sudo groupadd nagcmd
 sudo usermod -a -G nagcmd nagios
 wget https://assets.nagios.com/downloads/nagiosfusion/4/fusion-4.1.3.tar.gz
 tar tar xzvf fusion-4.1.3.tar.gz
-mvdir fusion-4.1.3 nagios
-cd nagios
+cd nagiosfusion
 ./configure --with-nagios-group=nagios --with-command-group=nagcmd
 make -j4 all
 sudo make install
