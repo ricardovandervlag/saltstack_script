@@ -1,1 +1,1 @@
-salt '*$1' cmd.run 'git pull'
+salt "*$1" cmd.run 'git pull'
