@@ -6,8 +6,7 @@ sh install_salt.sh
 rm install_salt.sh
 
 # Setup master
-echo '#master: salt' >> /etc/salt/minion
-echo "master: $1" >> /etc/salt/minion
+sh -c "echo '$1 salt' >> /etc/salt/minion"
 
 # Enable service
 service salt-minion start
