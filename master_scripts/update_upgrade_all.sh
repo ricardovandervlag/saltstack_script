@@ -1,1 +1,1 @@
-sudo salt '*' cmd.run 'apt update; apt dist-upgrade -y'
+sudo salt "*$1" cmd.run 'apt update; apt dist-upgrade -y'
