@@ -6,7 +6,7 @@ bash install_setup_salt.sh
 service salt-minion restart
 service salt-master restart
 # Waiting for minions
-echo Waiting for minions (10 seconds)
+echo 'Waiting for minions (10 seconds)'
 sleep 10
 # Print all keys
 salt-key --list-all
