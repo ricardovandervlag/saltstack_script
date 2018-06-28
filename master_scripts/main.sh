@@ -15,3 +15,5 @@ salt-key --accept-all -y
 bash update_upgrade_all.sh
 # Install Nagios
 bash nagios_setup.sh
+# Add all minions to logserver
+bash add_minion_logserver.sh
