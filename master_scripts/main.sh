@@ -13,3 +13,5 @@ sleep 10
 salt-key --accept-all -y
 # Update all machines
 bash update_upgrade_all.sh
+# Install Nagios
+bash nagios_setup.sh
