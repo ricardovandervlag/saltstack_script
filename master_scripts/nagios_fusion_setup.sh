@@ -1,1 +1,0 @@
-curl https://assets.nagios.com/downloads/nagios-network-analyzer/install.sh | sh
