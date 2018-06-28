@@ -5,7 +5,13 @@ bash install_setup_salt.sh
 # Restarting services
 service salt-minion restart
 service salt-master restart
-# Waiting for minions
+# Waiting for minions 1
+echo 'Waiting for minions (10 seconds)'
+sleep 10
+# Waiting for minions 2
+echo 'Waiting for minions (10 seconds)'
+sleep 10
+# Waiting for minions 3
 echo 'Waiting for minions (10 seconds)'
 sleep 10
 # Print all keys
