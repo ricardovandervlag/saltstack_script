@@ -1,5 +1,5 @@
 # Change directory to script repo
-cd /home/saltstack_scriptsmaster_scripts
+cd /home/saltstack_scripts/master_scripts
 # Install and setup salt master
 bash install_setup_salt.sh
 bash accept_all_minions.sh
