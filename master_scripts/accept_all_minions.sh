@@ -1,1 +1,1 @@
-salt-key --accept-all -y
+salt-key --accept-all
