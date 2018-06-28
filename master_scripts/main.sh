@@ -2,6 +2,7 @@
 cd /home/saltstack_scripts/master_scripts
 # Install and setup salt master
 bash install_setup_salt.sh
+# Accepting all minions
 bash accept_all_minions.sh
 # Update repo on all machines
 bash update_local_repo.sh
