@@ -9,6 +9,7 @@ service salt-master restart
 salt-key --list-all
 # Accepting all minions
 salt-key --accept-all -y
+# Note! Salt master does not always imediatly list all keys. Restart script until all minions are listed.
 echo 'If not all minions were listed/accepted, please press ^C and restart script'
 sleep 10
 # Update all machines
